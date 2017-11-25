@@ -1,0 +1,374 @@
+* {
+  margin: 0px;
+}
+body {
+  width: 1280px;
+  margin: auto;
+  height: 100%;
+}
+.header {
+  display: block;
+  position: relative;
+  width: 1280px;
+  height: 323px;
+  background-color: #445162;
+  padding: 0px;
+  margin: auto;
+}
+.header p {
+  display: block;
+  float: left;
+  width: 427px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 400;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  margin: 50px 50px 0px 50px;
+}
+.header ul {
+  display: block;
+  float: left;
+  width: 600px;
+  height: 145px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  margin: 50px;
+  list-style-image: url(img/check.png);
+  clear: both;
+}
+.header aside {
+  display: block;
+  position: absolute;
+  width: 469px;
+  height: 214px;
+  background-color: #ffffff;
+  right: 50px;
+  top: 50px;
+}
+main {
+  width: calc(100%-2px);
+  min-height: 100%;
+  display: block;
+  border: 2px solid;
+  border-color: #DBDBDB;
+}
+main .about {
+  position: relative;
+}
+main .about header {
+  display: block;
+  width: 693px;
+  font-family: Arial;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  margin: 50px 50px 0px 50px;
+}
+main .about p {
+  display: block;
+  width: 693px;
+  margin: 30px 50px;
+  font-family: Arial;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-align: justify;
+}
+main .about aside {
+  display: block;
+  position: absolute;
+  right: 50px;
+  top: 1px;
+  width: 430px;
+  height: 250px;
+  background-color: #445162;
+}
+main .dignity {
+  margin-top: 100px;
+  padding: 50px 50px 0px 0px;
+  background-color: #f5f5f5;
+}
+main .dignity header {
+  font-family: Arial;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  padding-left: 50px;
+}
+main .dignity ul {
+  display: inline-block;
+  width: 46.5%;
+  font-family: Arial;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  list-style: none;
+  margin: 0px;
+  margin-bottom: 50px;
+}
+main .dignity li {
+  margin-top: 36px;
+}
+main .dignity li img {
+  float: left;
+  margin: 0px 5px 50px 0px;
+  width: 30px;
+  height: 30px;
+}
+main .scrinshots {
+  padding: 50px 0px 50px 50px;
+}
+main .scrinshots article {
+  display: inline-block;
+  width: 560px;
+  margin-right: 50px;
+}
+main .scrinshots h2 {
+  font-family: Arial;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+main .scrinshots aside {
+  float: left;
+  margin: 0px 15px 30px 0px;
+  background-color: #445162;
+  width: 200px;
+  height: 150px;
+}
+main .scrinshots header {
+  font-family: Arial;
+  color: #445161;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 15px;
+  margin-top: -5px;
+}
+main .scrinshots p {
+  font-family: Arial;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  margin: 0px;
+}
+main .reviews {
+  background-color: #f5f5f5;
+  padding: 50px 18px 50px 50px;
+}
+main .reviews header {
+  font-family: Arial;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin: 0px 32px 35px 0px;
+}
+main .reviews article {
+  display: inline-block;
+  width: 600px;
+  height: 120px;
+}
+main .reviews article img {
+  display: block;
+  float: left;
+  margin: 0px 16px 70px 0px;
+}
+main .reviews article .rewtext {
+  margin: 0px 32px 0px 0px;
+  text-align: justify;
+}
+main .reviews article .name {
+  font-family: Arial;
+  color: #989898;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  margin: 0px;
+}
+main .h2 {
+  font-family: Arial;
+  color: #445161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+main .buyit {
+  padding: 50px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+main .buyit article {
+  background-color: #445162;
+  border: 2px #445162 solid;
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 300px;
+}
+main .buyit article header {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin: 16px 0px 16px 0px;
+}
+main .buyit article p {
+  width: 300px;
+  height: 71px;
+  background-color: #ffffff;
+  font-family: Arial;
+  color: #445162;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 71px;
+  text-align: center;
+}
+main .buyit article ul {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  list-style: none;
+  text-align: justify;
+  padding-left: 20px;
+}
+main .buyit article div {
+  width: 260px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: Arial;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  margin: 20px;
+  line-height: 40px;
+}
+footer {
+  width: 100%;
+  height: 559px;
+  background-color: #445162;
+  position: relative;
+}
+footer header {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+footer form {
+  width: 510px;
+  height: 430px;
+  margin-left: 250px;
+}
+footer form fieldset {
+  width: 500px;
+  height: 300px;
+  border-width: 0px;
+}
+footer form fieldset input,
+footer form fieldset textarea {
+  width: 500px;
+  height: 40px;
+  font-family: Arial;
+  color: #445161;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+footer form fieldset textarea {
+  height: 170px;
+}
+footer form fieldset div {
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-family: Arial;
+  color: #445161;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 180px;
+}
+footer ul {
+  display: block;
+  position: absolute;
+  right: 290px;
+  bottom: 290px;
+  width: 200px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  list-style: none;
+}
+footer ul li img {
+  margin: 5px 5px 2px 0px;
+  width: 24px;
+  height: 24px;
+}
+footer .img {
+  display: block;
+  position: absolute;
+  right: 250px;
+  bottom: 200px;
+}
+footer div {
+  width: calc(100%-2px);
+  height: 20px;
+  background-color: #f5f5f5;
+  font-family: Arial;
+  color: #445162;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  text-align: center;
+  border: 2px #DBDBDB solid;
+}

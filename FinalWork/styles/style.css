@@ -1,0 +1,596 @@
+/* line 1, style.less */
+* {
+  margin: 0;
+}
+/* line 6, style.less */
+body {
+  width: 1500px;
+  min-height: 100%;
+  margin: auto;
+}
+/* line 1, blocks\header\header.less */
+.header {
+  width: 100%;
+  height: 600px;
+  background-color: #f9f9f9;
+}
+/* line 1, blocks\header\topline.less */
+.topline {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: inherit;
+  justify-content: center;
+  align-items: center;
+}
+/* line 11, blocks\header\topline.less */
+.topline .toplineImg {
+  width: 200px;
+  height: 40px;
+  background: url("../img/header/1.png") no-repeat;
+}
+/* line 18, blocks\header\topline.less */
+.topline ul {
+  display: inline-block;
+}
+/* line 1, blocks\header\toplineMenu.less */
+.toplineMenu {
+  width: 500px;
+  height: 20px;
+  border-right: #d3d3d3 solid 2px;
+}
+/* line 7, blocks\header\toplineMenu.less */
+.toplineMenu li {
+  display: inline-block;
+  font-family: HelveticaNeue;
+  color: #a7a7a7;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 20px;
+}
+/* line 17, blocks\header\toplineMenu.less */
+.toplineMenu li:hover {
+  color: #d6d6d6;
+}
+/* line 1, blocks\header\toplineSocial.less */
+.toplineSocial {
+  width: 200px;
+  height: 30px;
+}
+/* line 6, blocks\header\toplineSocial.less */
+.toplineSocial li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+/* line 13, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem1 {
+  background: url("../img/header/RSS.png");
+}
+/* line 17, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem1:hover {
+  background-color: #74ebff;
+  border-radius: 15px;
+}
+/* line 24, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem2 {
+  background: url("../img/header/Dribbble.png");
+}
+/* line 28, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem2:hover {
+  background-color: #74ebff;
+  border-radius: 15px;
+}
+/* line 35, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem3 {
+  background: url("../img/header/Facebook.png");
+}
+/* line 39, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem3:hover {
+  background-color: #74ebff;
+  border-radius: 15px;
+}
+/* line 46, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem4 {
+  background: url("../img/header/Pinterest.png");
+}
+/* line 50, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem4:hover {
+  background-color: #74ebff;
+  border-radius: 15px;
+}
+/* line 57, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem5 {
+  background: url("../img/header/Twitter.png");
+}
+/* line 61, blocks\header\toplineSocial.less */
+.toplineSocial .socialItem5:hover {
+  background-color: #74ebff;
+  border-radius: 15px;
+}
+/* line 1, blocks\header\info.less */
+.info {
+  width: 100%;
+  height: 500px;
+  background: url("../img/header/1.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 12, blocks\header\info.less */
+.info .infoImg {
+  width: 300px;
+  height: 380px;
+  background: url("../img/header/Layer 16.png");
+}
+/* line 1, blocks\header\infoH1.less */
+.infoH1 {
+  width: 730px;
+  font-family: HelveticaNeue;
+  color: #a89574;
+  font-size: 55px;
+  font-weight: 700;
+  text-align: justify;
+  text-shadow: 0 1px 0 black;
+}
+/* line 1, blocks\header\infoText.less */
+.infoText {
+  width: 730px;
+  font-family: HelveticaNeue;
+  color: #c7c7c7;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: justify;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+/* line 1, blocks\header\infoButton.less */
+.infoButton {
+  border-radius: 5px;
+  border: 2px solid #a89574;
+  box-sizing: border-box;
+  background-color: #000000;
+  width: 150px;
+  height: 48px;
+  font-family: HelveticaNeue;
+  color: #a89574;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-right: 550px;
+}
+/* line 16, blocks\header\infoButton.less */
+.infoButton:hover {
+  background-color: #f6f9f9;
+}
+/* line 1, blocks\container\container.less */
+.container {
+  width: 100%;
+}
+/* line 1, blocks\container\purchase\purchase.less */
+.purchase {
+  width: 100%;
+  height: 300px;
+  background-color: #f4f4f4;
+}
+/* line 1, blocks\container\purchase\purchaseButton.less */
+.purchaseButton {
+  width: 100%;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+/* line 7, blocks\container\purchase\purchaseButton.less */
+.purchaseButton button {
+  border-radius: 5px;
+  border: 2px solid #a89574;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  width: 150px;
+  height: 48px;
+  margin-right: 10px;
+}
+/* line 17, blocks\container\purchase\purchaseButton.less */
+.purchaseButton button:hover {
+  background-color: #ffffff;
+}
+/* line 1, blocks\container\purchase\purchaseH2.less */
+.purchaseH2 {
+  font-family: HelveticaNeue;
+  color: #767676;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+  margin-left: 120px;
+  padding-top: 60px;
+}
+/* line 1, blocks\container\purchase\purchaseText.less */
+.purchaseText {
+  font-family: HelveticaNeue;
+  color: #545454;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  width: 100%;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+/* line 1, blocks\container\process\process.less */
+.process {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+/* line 1, blocks\container\process\processH2.less */
+.processH2 {
+  font-family: HelveticaNeue;
+  color: #767676;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 120px;
+  padding-top: 60px;
+}
+/* line 1, blocks\container\process\processStage.less */
+.processStage {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px auto;
+}
+/* line 10, blocks\container\process\processStage.less */
+.processStage h3 {
+  padding-top: 110px;
+  font-family: HelveticaNeue;
+  color: #767676;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+/* line 20, blocks\container\process\processStage.less */
+.processStage p {
+  margin-top: 10px;
+  font-family: HelveticaNeue;
+  color: #818181;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 29, blocks\container\process\processStage.less */
+.processStage .stage1 {
+  background: url('../img/container/Man.png') no-repeat center top;
+  width: 250px;
+  height: 200px;
+}
+/* line 36, blocks\container\process\processStage.less */
+.processStage .stage2 {
+  background: url('../img/container/Shape.png') no-repeat center top;
+  width: 250px;
+  height: 200px;
+}
+/* line 42, blocks\container\process\processStage.less */
+.processStage .stage3 {
+  background: url('../img/container/Pacman.png') no-repeat center top;
+  width: 250px;
+  height: 200px;
+}
+/* line 49, blocks\container\process\processStage.less */
+.processStage .stage4 {
+  background: url('../img/container/Camera 2.png') no-repeat center top;
+  width: 250px;
+  height: 200px;
+}
+/* line 56, blocks\container\process\processStage.less */
+.processStage .stage5 {
+  background: url('../img/container/Leaf.png') no-repeat center top;
+  width: 250px;
+  height: 200px;
+}
+/* line 1, blocks\container\process\processText.less */
+.processText {
+  font-family: HelveticaNeue;
+  color: #818181;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 85%;
+}
+/* line 1, blocks\container\stuff\stuff.less */
+.stuff {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+/* line 1, blocks\container\stuff\stuffStage.less */
+.stuffStage {
+  width: 85%;
+  height: 290px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  margin: 60px auto;
+}
+/* line 11, blocks\container\stuff\stuffStage.less */
+.stuffStage p {
+  font-family: HelveticaNeue;
+  color: #767676;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 240px;
+}
+/* line 20, blocks\container\stuff\stuffStage.less */
+.stuffStage p a {
+  font-family: HelveticaNeue;
+  color: #a89574;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: center;
+}
+/* line 28, blocks\container\stuff\stuffStage.less */
+.stuffStage p a:hover {
+  color: #d1d1d1;
+}
+/* line 35, blocks\container\stuff\stuffStage.less */
+.stuffStage .stuffStage1 {
+  background-color: grey;
+  width: 276px;
+  height: 210px;
+  overflow: hidden;
+  animation: anim 15s infinite normal ease-in-out;
+}
+@keyframes anim {
+  /* line 45, blocks\container\stuff\stuffStage.less */
+  0% {
+    background: url("../img/container/stage1/1.jpg") no-repeat;
+  }
+  /* line 49, blocks\container\stuff\stuffStage.less */
+  66% {
+    background: url("../img/container/stage1/2.jpg") no-repeat;
+  }
+  /* line 53, blocks\container\stuff\stuffStage.less */
+  100% {
+    background: url("../img/container/stage1/3.jpg") no-repeat;
+  }
+}
+/* line 61, blocks\container\stuff\stuffStage.less */
+.stuffStage .stuffStage2 {
+  background-color: grey;
+  width: 276px;
+  height: 210px;
+  overflow: hidden;
+  animation: anim2 15s infinite normal ease-in-out;
+}
+@keyframes anim2 {
+  /* line 70, blocks\container\stuff\stuffStage.less */
+  0% {
+    background: url("../img/container/stage2/1.jpg") no-repeat;
+  }
+  /* line 74, blocks\container\stuff\stuffStage.less */
+  66% {
+    background: url("../img/container/stage2/2.jpg") no-repeat;
+  }
+  /* line 78, blocks\container\stuff\stuffStage.less */
+  100% {
+    background: url("../img/container/stage2/3.jpg") no-repeat;
+  }
+}
+/* line 84, blocks\container\stuff\stuffStage.less */
+.stuffStage .stuffStage3 {
+  background-color: grey;
+  width: 276px;
+  height: 210px;
+  overflow: hidden;
+  animation: anim3 15s infinite normal ease-in-out;
+}
+@keyframes anim3 {
+  /* line 93, blocks\container\stuff\stuffStage.less */
+  0% {
+    background: url("../img/container/stage3/1.jpg") no-repeat;
+  }
+  /* line 97, blocks\container\stuff\stuffStage.less */
+  66% {
+    background: url("../img/container/stage3/2.jpg") no-repeat;
+  }
+  /* line 101, blocks\container\stuff\stuffStage.less */
+  100% {
+    background: url("../img/container/stage3/3.jpg") no-repeat;
+  }
+}
+/* line 108, blocks\container\stuff\stuffStage.less */
+.stuffStage .stuffStage4 {
+  background-color: grey;
+  width: 276px;
+  height: 210px;
+  overflow: hidden;
+  animation: anim4 15s infinite normal ease-in-out;
+}
+@keyframes anim4 {
+  /* line 117, blocks\container\stuff\stuffStage.less */
+  0% {
+    background: url("../img/container/stage4/1.jpg") no-repeat;
+  }
+  /* line 121, blocks\container\stuff\stuffStage.less */
+  66% {
+    background: url("../img/container/stage4/2.jpg") no-repeat;
+  }
+  /* line 125, blocks\container\stuff\stuffStage.less */
+  100% {
+    background: url("../img/container/stage4/3.jpg") no-repeat;
+  }
+}
+/* line 1, blocks\container\stuff\stuffH2.less */
+.stuffH2 {
+  font-family: HelveticaNeue;
+  color: #767676;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: left;
+  width: 100%;
+  margin-left: 120px;
+  padding-top: 20px;
+}
+/* line 1, blocks\container\stuff\stuffText.less */
+.stuffText {
+  font-family: HelveticaNeue;
+  color: #545454;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  margin: 30px 120px 0 120px;
+}
+/* line 1, blocks\footer\footer.less */
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: #363636;
+}
+/* line 7, blocks\footer\footer.less */
+.footer .footerText {
+  width: 85%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* line 17, blocks\footer\footer.less */
+.footer .footerText h2 {
+  font-family: HelveticaNeue;
+  color: #efefef;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 15px;
+}
+/* line 27, blocks\footer\footer.less */
+.footer .footerText p {
+  font-family: HelveticaNeue;
+  color: #d2d2d2;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 36, blocks\footer\footer.less */
+.footer .footerText li {
+  font-family: HelveticaNeue;
+  color: #d2d2d2;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+/* line 47, blocks\footer\footer.less */
+.footer .footerText .textGet {
+  width: 250px;
+}
+/* line 51, blocks\footer\footer.less */
+.footer .footerText .textGet .getAdress {
+  margin-top: 35px;
+  padding-left: 15px;
+}
+/* line 56, blocks\footer\footer.less */
+.footer .footerText .textGet .getAdress .adressTown {
+  list-style-image: url("../img/footer/Fill.png");
+}
+/* line 61, blocks\footer\footer.less */
+.footer .footerText .textGet .getAdress .adressTel {
+  list-style-image: url("../img/footer/Phone.png");
+}
+/* line 66, blocks\footer\footer.less */
+.footer .footerText .textGet .getAdress .adressEmail {
+  list-style-image: url("../img/footer/Message small.png");
+}
+/* line 73, blocks\footer\footer.less */
+.footer .footerText .textTwitter {
+  width: 250px;
+}
+/* line 77, blocks\footer\footer.less */
+.footer .footerText .textTwitter .twit {
+  padding-left: 15px;
+}
+/* line 81, blocks\footer\footer.less */
+.footer .footerText .textTwitter .twit li {
+  list-style-image: url("../img/footer/Layer 15.png");
+}
+/* line 88, blocks\footer\footer.less */
+.footer .footerText .popularPost {
+  width: 250px;
+}
+/* line 92, blocks\footer\footer.less */
+.footer .footerText .popularPost .postText {
+  padding: 0;
+}
+/* line 96, blocks\footer\footer.less */
+.footer .footerText .popularPost .postText p {
+  font-family: HelveticaNeue;
+  color: #949494;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 107, blocks\footer\footer.less */
+.footer .footerText form {
+  width: 250px;
+}
+/* line 111, blocks\footer\footer.less */
+.footer .footerText form input {
+  background-color: black;
+  width: 100%;
+  height: 25px;
+  color: white;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  border: none;
+}
+/* line 122, blocks\footer\footer.less */
+.footer .footerText form textarea {
+  background-color: black;
+  width: 100%;
+  height: 121px;
+  border: none;
+  padding-left: 10px;
+  resize: none;
+  color: white;
+}
+/* line 133, blocks\footer\footer.less */
+.footer .footerText form button {
+  font-family: HelveticaNeue;
+  color: #a6a6a6;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #a6a6a6;
+  box-sizing: border-box;
+  background-color: #363636;
+  width: 90px;
+  height: 20px;
+}
+/* line 147, blocks\footer\footer.less */
+.footer .footerText form button:hover {
+  background-color: #f6f9f9;
+}
+/* line 155, blocks\footer\footer.less */
+.footer .copy {
+  background-color: #1f1f1f;
+  width: 1380px;
+  height: 37px;
+  font-family: HelveticaNeue;
+  color: #d2d2d2;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 23px;
+  padding-left: 120px;
+}
